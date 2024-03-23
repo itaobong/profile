@@ -1,4 +1,5 @@
 #!/bin/bash
+# AMI: Use Amazon Linux
 sudo yum update -y
 sudo yum install -y httpd
 sudo systemctl start httpd
